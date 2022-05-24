@@ -27,6 +27,7 @@ const Form = () => {
           placeholder="Tu nombre"
           autoComplete="off"
           value={name}
+          required={true}
           onChange={handleInputChange}
         />
       </div>
@@ -40,6 +41,7 @@ const Form = () => {
           placeholder="Tu email"
           autoComplete="off"
           value={email}
+          required={true}
           onChange={handleInputChange}
         />
       {/* <small className="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small> */}
@@ -54,6 +56,7 @@ const Form = () => {
           placeholder="Tu Password"
           autoComplete="off"
           value={password}
+          required={true}
           onChange={handleInputChange}
         />
       </div>

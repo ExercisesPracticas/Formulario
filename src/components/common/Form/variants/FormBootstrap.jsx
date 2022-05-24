@@ -30,7 +30,7 @@ const FormBootstrap = () => {
         </div>
         <div className="bussines">
           <h2>CONSIGUE VENTAS</h2>
-          <p> AGENCIA DE EMBUDO DE VENTAS ONLINE</p>
+          <p>AGENCIA DE EMBUDO DE VENTAS ONLINE</p>
         </div>
         <Form />
       </div>
